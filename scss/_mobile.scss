@@ -42,7 +42,8 @@
         transform: translate3d(100%, 0, 0);
 
         .portrait {
-            background: url(../img/portrait_small.jpg);
+            opacity: 1;
+            background: $portrait150;
             width: 150px;
             height: 150px;
         }
