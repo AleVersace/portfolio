@@ -15,8 +15,13 @@
         text-align: center;
 
         .lg-heading {
+            font-size: 3rem;
             line-height: 1;
             margin-bottom: 1rem;
+        }
+
+        .sm-heading {
+            font-size: 1rem;
         }
     }
     
@@ -47,6 +52,17 @@
             width: 150px;
             height: 150px;
         }
+    }
+
+    .about-info {
+        grid-template-areas:
+            'bioimage'
+            'bio'
+            'job1'
+            'job2'
+            'job3';
+
+        grid-template-columns: 1fr;
     }
 }
 
