@@ -113,6 +113,25 @@ main {
     }
 }
 
+// Work/Projects Page
+.projects {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(3, 1fr);
+
+    img {
+        opacity: 0.8;
+        width: 100%;
+        border: 3px #fff solid;
+
+        &:hover {
+            opacity: 1.0;
+            border-color: $secondary-color;
+            @include easeOut; 
+        }
+    }
+}
+
 #main-footer {
     text-align: center;
     padding: 1rem;
